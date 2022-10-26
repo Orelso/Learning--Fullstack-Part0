@@ -1,0 +1,6 @@
+
+browser->server: HTTP Post https://studies.cs.helsinki.fi/exampleapp/new_note
+server-->browser: The server responnds with status code 302 HTTP Get location: /exampleapp/notes
+browser-->server: So, the browser reloads the Notes page. The reload causes three more HTTP requests: fetching the style sheet (main.css), the JavaScript code (main.js), and the raw data of the notes (data.json).
+
+
